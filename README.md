@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Bhupas Gautam</h1>
-<h3 align="center">Software engineering student from Denmark</h3>
+<h3 align="center">Data Scientist from Denmark</h3>
 <img align="right" alt="coding" width="400" src="https://camo.githubusercontent.com/5ddf73ad3a205111cf8c686f687fc216c2946a75005718c8da5b837ad9de78c9/68747470733a2f2f7468756d62732e6766796361742e636f6d2f4576696c4e657874446576696c666973682d736d616c6c2e676966">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bhupas&label=Profile%20views&color=0e75b6&style=flat" alt="bhupas" /> </p>
@@ -17,28 +17,31 @@
 
 # Little bit about me 👋
 
-```java
+```python
 
-public class SoftwareEngineer {
-    private String name;
-    private String role;
-    private String[] languageSpoken;
+class DataScientist:
+    def __init__(self):
+        self.name = "Bhupas Gautam"
+        self.role = "Data Scientist"
+        self.languages_spoken = ["da_DK", "en_US"]
+        self.skills = ["Machine Learning", "Data Analysis", "Python"]
 
-    public SoftwareEngineer() {
-        name = "Bhupas Gautam";
-        role = "Software Engineer";
-        languageSpoken = new String[]{"da_DK", "en_US"};
-    }
+class MLEngineer:
+    def __init__(self):
+        self.name = "Bhupas Gautam"
+        self.role = "Machine Learning Engineer"
+        self.languages_spoken = ["da_DK", "en_US"]
+        self.skills = ["Deep Learning", "Python", "TensorFlow", "PyTorch"]
 
-    public void sayHi() {
-        System.out.println("Thanks for dropping by, hope you find some of my work interesting.");
-    }
+    def say_hi(self):
+        print("Thanks for visiting, I'm dedicated to building and optimizing ML models.")
 
-    public static void main(String[] args) {
-        SoftwareEngineer me = new SoftwareEngineer();
-        me.sayHi();
-    }
-}
+if __name__ == "__main__":
+    data_scientist = DataScientist()
+    data_scientist.say_hi()
+
+    ml_engineer = MLEngineer()
+    ml_engineer.say_hi()
 
 
 ```
