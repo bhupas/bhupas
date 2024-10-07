@@ -21,7 +21,7 @@ class DataScientist:
         self.name = "Bhupas Gautam"
         self.role = "Data Scientist"
         self.languages_spoken = ["da_DK", "en_US"]
-        self.skills = ["Machine Learning", "Data Analysis", "Python"]
+        self.skills = ["Machine Learning", "NLP", "Forcasting"]
 
 class MLEngineer:
     def __init__(self):
